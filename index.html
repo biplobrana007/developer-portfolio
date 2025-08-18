@@ -6,157 +6,314 @@
     <title>BRn</title>
     <!-- tailwindcss -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        <!-- fontawesome cdn -->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- main css -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="open-sans ">
+  <body class="open-sans">
     <!-- header section -->
     <header class="bg-color md:py-10 px-5 md:px-0 relative md:mb-32">
-        <img src="./images/header_bg.png" alt="" class="max-w-full absolute md:bottom-0 md:right-0 hidden md:block">
-        <img src="./images/hardy.png " alt="" class=" max-w-full absolute md:bottom-0 md:right-10 hidden md:block">
-      <div class="header-container md:max-w-[1140px] mx-auto relative ">
-        <nav class=" flex flex-col md:flex-row md:justify-between py-7 items-center gap-10">
-          <h2 class="font-extrabold text-5xl dark01">B<span class="orange">R</span>n</h2>
-          <ul class="flex flex-col md:flex-row md:gap-10 gap-5 dark02 text-xl font-normal items-center">
+      <img
+        src="./images/header_bg.png"
+        alt=""
+        class="max-w-full absolute md:bottom-0 md:right-0 hidden md:block"
+      />
+      <img
+        src="./images/hardy.png "
+        alt=""
+        class="max-w-full absolute md:bottom-0 md:right-10 hidden md:block"
+      />
+      <div class="header-container md:max-w-[1140px] mx-auto relative">
+        <nav
+          class="flex flex-col md:flex-row md:justify-between py-7 items-center gap-10 mb-30 md:mb-0"
+        >
+          <h2 class="font-extrabold text-7xl dark01">
+            B<span class="orange">R</span>n
+          </h2>
+          <ul
+            class="flex flex-col md:flex-row md:gap-10 gap-10 dark02 text-xl font-normal items-center"
+          >
             <li><a href="">Portfolio</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Hire Me</a></li>
+            <li class=" text-white bg-[#fd6a0a] py-5 px-4 rounded-[5px]"><a href="">Hire Me</a></li>
           </ul>
         </nav>
         <div class="intro md:py-45">
-          <h2 class="dark02 md:text-5xl text-4xl font-semibold mb-3">Hi, I am</h2>
+          <h2 class="dark02 md:text-5xl text-4xl font-semibold mb-3">
+            Hi, I am
+          </h2>
           <h1 class="dark01 text-7xl font-bold">Biplob Rana</h1>
-          <p class="dark03 text-lg font-normal leading-[30px] my-8 md:max-w-[50%]">
+          <p
+            class="dark03 text-lg font-normal leading-[30px] my-8 md:max-w-[50%]"
+          >
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <div class="flex flex-col md:flex-row gap-8 ">
-            <button class="text-xl font-bold text-white bg-[#fd6a0a] py-5 px-4 flex items-center justify-center  gap-3 rounded-[5px]">
-                <span><i class=" font-normal fa-solid fa-arrow-down"></i></span><span>Download CV</span>
+          <div class="flex flex-col md:flex-row gap-8">
+            <button
+              class="text-xl font-bold text-white bg-[#fd6a0a] py-5 px-4 flex items-center justify-center gap-3 rounded-[5px]"
+            >
+              <span><i class="font-normal fa-solid fa-arrow-down"></i></span
+              ><span>Download CV</span>
             </button>
-            <button class="text-xl font-bold bg-trnsparent orange py-5 px-4 flex items-center justify-center gap-3 border rounded-[5px]">
-                </span><i class="fa-solid fa-phone"></i><span>Contact</span><span>
+            <button
+              class="text-xl font-bold bg-trnsparent orange py-5 px-4 flex items-center justify-center gap-3 border rounded-[5px]"
+            >
+              <span><i class="fa-solid fa-phone"></i></span><span>Contact</span>
             </button>
           </div>
         </div>
-        <img src="./images/developer.png" alt="" class="absolute md:top-0 md:left-[-15%] hidden md:block">
+        <img
+          src="./images/developer.png"
+          alt=""
+          class="absolute md:top-0 md:left-[-15%] hidden md:block"
+        />
       </div>
     </header>
-    <main class="max-w-[1140px] mx-auto"> 
-        <!--about section  -->
-        <section class="about-section bg-color md:p-30 py-30 px-5  text-center ">
-            <h2 class="text-4xl font-bold dark01 ">About Me</h2>
-            <p class="dark03 txt-lg leading-[30px] font-normal my-10">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
-            <div class="flex flex-col md:flex-row gap-5">
-                <div class="">
-                    <h4 class="dark03 text-2xl font-normal leading-[30px]">Name:</h4>
-                    <h4 class="dark02 text-2xl font-bold leading-[30px]">Biplob Rana </h4>
-                </div>
-                <div class="">
-                    <h4 class="dark03 text-2xl font-normal leading-[30px]">Email:</h4>
-                    <h4 class="dark02 text-2xl font-bold leading-[30px]">mubiplobrana@gmail.com</h4>
-                </div>
-                <div class="">
-                    <h4 class="dark03 text-2xl font-normal leading-[30px]">Date of birth:</h4>
-                    <h4 class="dark02 text-2xl font-bold leading-[30px]">15 June 2002</h4>
-                </div>
-                <div class="">
-                    <h4 class="dark03 text-2xl font-normal leading-[30px]">From:</h4>
-                    <h4 class="dark02 text-2xl font-bold leading-[30px]">Dhaka, Bangladesh</h4>
-                </div>
+    <main class="max-w-[1140px] mx-auto">
+      <!--about section  -->
+      <section class="about-section bg-color md:p-30 py-30 px-5 text-center">
+        <h2 class="text-4xl font-bold dark01">About Me</h2>
+        <p class="dark03 txt-lg leading-[30px] font-normal my-10">
+          I, m a designer & developer with a passion for web design. I enjoy
+          developing simple, clean and slick websites that provide real value to
+          the end user. Thousands of clients have procured exceptional resulfs
+          while working with me. Delivering work within time and budget which
+          meets clients requirements in our mata.
+        </p>
+        <div class="flex flex-col md:flex-row gap-5">
+          <div class="">
+            <h4 class="dark03 text-2xl font-normal leading-[30px]">Name:</h4>
+            <h4 class="dark02 text-2xl font-bold leading-[30px]">
+              Biplob Rana
+            </h4>
+          </div>
+          <div class="">
+            <h4 class="dark03 text-2xl font-normal leading-[30px]">Email:</h4>
+            <h4 class="dark02 text-2xl font-bold leading-[30px]">
+              mubiplobrana@gmail.com
+            </h4>
+          </div>
+          <div class="">
+            <h4 class="dark03 text-2xl font-normal leading-[30px]">
+              Date of birth:
+            </h4>
+            <h4 class="dark02 text-2xl font-bold leading-[30px]">
+              15 June 2002
+            </h4>
+          </div>
+          <div class="">
+            <h4 class="dark03 text-2xl font-normal leading-[30px]">From:</h4>
+            <h4 class="dark02 text-2xl font-bold leading-[30px]">
+              Dhaka, Bangladesh
+            </h4>
+          </div>
+        </div>
+      </section>
+      <!-- experience section -->
+      <section class="experience-section my-30 px-5 md:px-0">
+        <h2 class="text-4xl font-bold dark01 text-center">What I do</h2>
+        <p
+          class="dark03 txt-lg leading-[30px] font-normal my-10 text-center md:w-[75%] mx-auto"
+        >
+          I have more than 10 years experience building software for clients all
+          over the world. Below is a quick overview of my main technical skill
+          sets and technologies i use. Want to find out more about my
+          experience? Check out my online resume and project portfolio.
+        </p>
+        <div class="flex flex-col md:flex-row gap-5">
+          <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
+            <img src="./images/icons/js.png" alt="" />
+            <h3 class="text-xl font-bold dark01 my-10">Vanilla JavaScript</h3>
+            <p class="dark03 text-[16px] font-normal leading-[28px]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
+            <img src="./images/icons/react.png" alt="" />
+            <h3 class="text-xl font-bold dark01 my-10">React</h3>
+            <p class="dark03 text-[16px] font-normal leading-[28px]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
+            <img src="./images/icons/nodejs.png" alt="" />
+            <h3 class="text-xl font-bold dark01 my-10">Node.js</h3>
+            <p class="dark03 text-[16px] font-normal leading-[28px]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
+            <img src="./images/icons/mongo.png" alt="" />
+            <h3 class="text-xl font-bold dark01 my-10">MongoDB</h3>
+            <p class="dark03 text-[16px] font-normal leading-[28px]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- resume section -->
+      <section class="resume-section my-30 px-5 md:px-0">
+        <h2 class="text-4xl font-bold dark01 text-center mb-30">
+          A summary of My Resume
+        </h2>
+        <div class="flex flex-col md:flex-row md:gap-10 gap-15">
+          <div class="">
+            <h3 class="text-3xl font-bold dark02">My Education</h3>
+            <div class="border-b border-[#D1D1D1] py-6">
+              <h3 class="dark02 text-2xl font-bold">
+                Master in Computer Engineering
+              </h3>
+              <h3 class="text-xl dark03 font-semibold mb-6">
+                Harvard University / 2015 - 2017
+              </h3>
+              <p class="dark03 text-[16px] font-normal leading-[28px]">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
             </div>
-        </section>
-        <!-- experience section -->
-         <section class="experience-section my-30 px-5 md:px-0">
-          <h2 class="text-4xl font-bold dark01 text-center ">What I do</h2>
-          <p class="dark03 txt-lg leading-[30px] font-normal my-10 text-center md:w-[75%] mx-auto">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
-          <div class=" flex flex-col md:flex-row gap-5">
-            <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
-              <img src="./images/icons/js.png" alt="">
-              <h3 class="text-xl font-bold dark01 my-10">Vanilla JavaScript</h3>
-              <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+            <div class="border-b border-[#D1D1D1] py-6">
+              <h3 class="dark02 text-2xl font-bold">
+                Master in Computer Engineering
+              </h3>
+              <h3 class="text-xl dark03 font-semibold mb-6">
+                Harvard University / 2015 - 2017
+              </h3>
+              <p class="dark03 text-[16px] font-normal leading-[28px]">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
             </div>
-            <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
-              <img src="./images/icons/react.png" alt="">
-              <h3 class="text-xl font-bold dark01 my-10">React</h3>
-              <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
-            <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
-              <img src="./images/icons/nodejs.png" alt="">
-              <h3 class="text-xl font-bold dark01 my-10">Node.js    </h3>
-              <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
-            <div class="p-7 rounded-[5px] shadow-[0_6px_50px_0_rgba(0,0,0,0.10)]">
-              <img src="./images/icons/mongo.png" alt="">
-              <h3 class="text-xl font-bold dark01 my-10">MongoDB</h3>
-              <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+            <div class="py-6">
+              <h3 class="dark02 text-2xl font-bold">
+                Master in Computer Engineering
+              </h3>
+              <h3 class="text-xl dark03 font-semibold mb-6">
+                Harvard University / 2015 - 2017
+              </h3>
+              <p class="dark03 text-[16px] font-normal leading-[28px]">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
             </div>
           </div>
-         </section>
-         <!-- resume section -->
-          <section class="resume-section my-30 px-5 md:px-0">
-              <h2 class="text-4xl font-bold dark01 text-center mb-30">A summary of My Resume</h2>
-             <div class="flex flex-col md:flex-row md:gap-10 gap-15">
-              <div class="">
-                <h3 class="text-3xl font-bold dark02">My Education</h3>
-                <div class="border-b border-[#D1D1D1] py-6">
-                  <h3 class="dark02 text-2xl font-bold">Master in Computer Engineering</h3>
-                  <h3 class="text-xl dark03 font-semibold mb-6">Harvard University / 2015 - 2017</h3>
-                  <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above 
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-                <div class="border-b border-[#D1D1D1] py-6">
-                  <h3 class="dark02 text-2xl font-bold">Master in Computer Engineering</h3>
-                  <h3 class="text-xl dark03 font-semibold mb-6">Harvard University / 2015 - 2017</h3>
-                  <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above 
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-                <div class="py-6">
-                  <h3 class="dark02 text-2xl font-bold">Master in Computer Engineering</h3>
-                  <h3 class="text-xl dark03 font-semibold mb-6">Harvard University / 2015 - 2017</h3>
-                  <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above 
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <h3 class="text-3xl font-bold dark02">My Experience</h3>
-                <div class="border-b border-[#D1D1D1] py-6">
-                  <h3 class="dark02 text-2xl font-bold">Sr. Font End Developer</h3>
-                  <h3 class="text-xl dark03 font-semibold mb-6">Apple Inc / 2020 - Current</h3>
-                  <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above 
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-                <div class="border-b border-[#D1D1D1] py-6">
-                  <h3 class="dark02 text-2xl font-bold">Jr. Font End Developer</h3>
-                  <h3 class="text-xl dark03 font-semibold mb-6">Dribbble Inc / 2018 - 2022</h3>
-                  <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above 
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-                <div class="py-6">
-                  <h3 class="dark02 text-2xl font-bold">HTML Developer</h3>
-                  <h3 class="text-xl dark03 font-semibold mb-6">Adobe Inc / 2017 - 2018</h3>
-                  <p class="dark03 text-[16px] font-normal leading-[28px]">List skill/technologies here. You can change the icon above 
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-              </div>
-
-             </div>
-
-          </section>
+          <div class="">
+            <h3 class="text-3xl font-bold dark02">My Experience</h3>
+            <div class="border-b border-[#D1D1D1] py-6">
+              <h3 class="dark02 text-2xl font-bold">Sr. Font End Developer</h3>
+              <h3 class="text-xl dark03 font-semibold mb-6">
+                Apple Inc / 2020 - Current
+              </h3>
+              <p class="dark03 text-[16px] font-normal leading-[28px]">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <div class="border-b border-[#D1D1D1] py-6">
+              <h3 class="dark02 text-2xl font-bold">Jr. Font End Developer</h3>
+              <h3 class="text-xl dark03 font-semibold mb-6">
+                Dribbble Inc / 2018 - 2022
+              </h3>
+              <p class="dark03 text-[16px] font-normal leading-[28px]">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <div class="py-6">
+              <h3 class="dark02 text-2xl font-bold">HTML Developer</h3>
+              <h3 class="text-xl dark03 font-semibold mb-6">
+                Adobe Inc / 2017 - 2018
+              </h3>
+              <p class="dark03 text-[16px] font-normal leading-[28px]">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mt-5">
+          <button
+            class="text-xl font-bold text-white bg-[#fd6a0a] py-5 px-4 flex items-center justify-center gap-3 rounded-[5px] w-full md:w-auto"
+          >
+            <span><i class="font-normal fa-solid fa-arrow-down"></i></span
+            ><span>Download CV</span>
+          </button>
+        </div>
+      </section>
     </main>
+    <!-- footer -->
+    <footer class="bg-color py-30 px-5 md:px-0">
+      <div class="max-w-[1140px] mx-auto flex flex-col md:flex-row gap-20">
+        <div class="flex-1">
+          <h3 class="text-4xl font-bold dark01">Lets Connect</h3>
+          <p class="dark02 text-[16px] font-normal leading-[28px] my-5">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <ul class="flex gap-5 orange ">
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h3 class="text-4xl font-bold dark01 mb-6">Lets Connect</h3>
+          <div class="flex flex-col gap-6">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Your name"
+              class="text-[16px] dark03 font-normal leading-[28px] px-7 py-4 bg-white"
+            />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Your email"
+              class="text-[16px] dark03 font-normal leading-[28px] px-7 py-4 bg-white"
+            />
+            <textarea
+              name=""
+              id=""
+              placeholder="Message"
+              class="text-[16px] dark03 font-normal leading-[28px] px-7 py-4 bg-white h-42"
+            ></textarea>
+          </div>
+          <button
+          class="text-xl font-bold text-white bg-[#fd6a0a] py-5 px-10 mt-6 flex items-center justify-center gap-3 rounded-[5px] w-full md:w-auto"
+        >
+          <span>Submit</span>
+        </button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
